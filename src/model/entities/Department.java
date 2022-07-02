@@ -58,6 +58,7 @@ public class Department implements Serializable {
 		builder.append(id);
 		builder.append(", name=");
 		builder.append(name);
+		builder.append("]");
 		return builder.toString();
 	}
 
